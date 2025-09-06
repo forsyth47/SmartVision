@@ -1,0 +1,29 @@
+# Core dependencies
+tensorflow==2.13.0
+deepface==0.0.79
+opencv-python==4.8.1.78
+numpy==1.23.5  # Fixed: Compatible with TensorFlow 2.13.0
+pillow==10.0.0
+
+# Vector database
+qdrant-client==1.6.4
+
+# Web interface
+streamlit==1.28.1
+
+# Additional dependencies that might be needed
+protobuf==3.20.3
+gdown==4.7.1
+retina-face==0.0.13
+
+# Better face detection with compatible versions
+mtcnn==0.1.1
+mediapipe==0.10.7
+face-recognition==1.3.0
+
+# Remove dlib for now as it can cause compilation issues
+# dlib==19.24.2
+
+# Fix JAX version conflict
+jax==0.4.13
+jaxlib==0.4.13
